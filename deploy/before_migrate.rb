@@ -1,1 +1,1 @@
-sleep 60
+run "sleep 60"
