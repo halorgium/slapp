@@ -1,6 +1,6 @@
 class App
   def call(env)
-    Rack::Request.new("win")
+    Rack::Response.new("win").finish
   end
 end
 
